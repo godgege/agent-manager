@@ -1,0 +1,54 @@
+{
+  "@@locale": "en",
+  "appSubtitle": "Rules and skills",
+  "agents": "Agents",
+  "project": "Project",
+  "writeProjectPrompts": "Write project prompts",
+  "mine": "Mine",
+  "market": "Market",
+  "marketUnavailable": "Market unavailable",
+  "retry": "Retry",
+  "noSkillsFound": "No skills found",
+  "noSkillsMessage": "skills.sh did not return any skills.",
+  "refresh": "Refresh",
+  "noPrompts": "No prompts",
+  "noPromptsMessage": "There are no local prompts here yet.",
+  "installToCurrentProject": "Install to current project",
+  "selectPrompt": "Select a prompt",
+  "selectPromptMessage": "Click a prompt to manage agent and project toggles.",
+  "agentToggles": "Agent toggles",
+  "scope": "Scope",
+  "global": "Global",
+  "promptContent": "Prompt content",
+  "rules": "Rules",
+  "skills": "Skills",
+  "projects": "Projects",
+  "on": "On",
+  "off": "Off",
+  "rule": "Rule",
+  "skill": "Skill",
+  "allowAgent": "Allow {agent} to use this prompt",
+  "@allowAgent": {
+    "placeholders": {
+      "agent": {
+        "type": "String"
+      }
+    }
+  },
+  "wroteProjectPrompts": "Wrote project prompts. {summary}",
+  "@wroteProjectPrompts": {
+    "placeholders": {
+      "summary": {
+        "type": "String"
+      }
+    }
+  },
+  "failedToWritePrompts": "Failed to write prompts: {error}",
+  "@failedToWritePrompts": {
+    "placeholders": {
+      "error": {
+        "type": "Object"
+      }
+    }
+  }
+}

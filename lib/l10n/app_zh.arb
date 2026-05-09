@@ -1,0 +1,54 @@
+{
+  "@@locale": "zh",
+  "appSubtitle": "规则与技能管理",
+  "agents": "支持 Agent",
+  "project": "项目",
+  "writeProjectPrompts": "写入项目 Prompt",
+  "mine": "我的",
+  "market": "市场",
+  "marketUnavailable": "市场暂时不可用",
+  "retry": "重试",
+  "noSkillsFound": "没有找到 skills",
+  "noSkillsMessage": "skills.sh 没有返回任何 skill。",
+  "refresh": "刷新",
+  "noPrompts": "暂无 Prompts",
+  "noPromptsMessage": "这里还没有本地 prompt。",
+  "installToCurrentProject": "安装到当前项目",
+  "selectPrompt": "选择一个 Prompt",
+  "selectPromptMessage": "点击一个 prompt 来管理 agent 和项目开关。",
+  "agentToggles": "Agent 开关",
+  "scope": "作用范围",
+  "global": "全局",
+  "promptContent": "Prompt 内容",
+  "rules": "规则",
+  "skills": "技能",
+  "projects": "项目",
+  "on": "已启用",
+  "off": "未启用",
+  "rule": "规则",
+  "skill": "技能",
+  "allowAgent": "允许 {agent} 使用这个 prompt",
+  "@allowAgent": {
+    "placeholders": {
+      "agent": {
+        "type": "String"
+      }
+    }
+  },
+  "wroteProjectPrompts": "已写入项目 prompts。{summary}",
+  "@wroteProjectPrompts": {
+    "placeholders": {
+      "summary": {
+        "type": "String"
+      }
+    }
+  },
+  "failedToWritePrompts": "写入 prompts 失败：{error}",
+  "@failedToWritePrompts": {
+    "placeholders": {
+      "error": {
+        "type": "Object"
+      }
+    }
+  }
+}
